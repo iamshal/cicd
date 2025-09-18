@@ -19,7 +19,7 @@ public class HelloControllerTest {
     public void testHello() throws Exception {
         mockMvc.perform(get("/"))
                 .andExpect(status().isOk())
-                .andExpect(content().string("Hello from CI/CD Demo!"));
+                .andExpect(content().string("Hello from CI/CD Demo! Version 1.1"));
     }
     
     @Test
