@@ -16,3 +16,4 @@ public class HelloController {
         return "OK";
     }
 }
+// New feature added
